@@ -7,7 +7,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <link href="./assets/css/styles.css" rel="stylesheet" id="theme_change"/>
-        <link href="./assets/css/nav-styles.css" rel="stylesheet" id="nav_theme_change"/>
+        <!--<link href="./assets/css/nav-styles.css" rel="stylesheet" id="nav_theme_change"/>-->
         <link rel="icon" type="image/png" href="./assets/img/vx-signature.png">
     
         <title>Vxlleney</title>
@@ -19,17 +19,16 @@
             <div class="gradient-nav"></div>
             <div class="nav">
                 <img src="./assets/img/vxlleney-signature.png" alt="">
-                <!--<a href="#" class="nav-logo">Vx <span>WEBHOSTING</span></a>-->
 
                 <i class="fas fa-stream hamburger" onclick="toggleMenu()"></i>
 
                 <ul>
                     <li class="item-nav">
-                        <a href="#">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
 
                     <li class="item-nav">
-                        <a href="#">Services</a>
+                        <a href="index-services.html">Services</a>
                     </li>
 
                     <li class="item-nav">
@@ -41,7 +40,7 @@
                     </li>
                 </ul>
 
-                <div class="theme-toggle">
+                <div class="theme-toggle" id="theme-selector">
                     <label for="checkbox" class="toggler">
                         <input type="checkbox" name="" id="checkbox">
                         <span class="ball" onclick="toggleTheme()"></span>
@@ -54,17 +53,17 @@
 
             <div class="nav-menu">
 
-                <img class="icon-back-menu" src="./assets/img/icon-back.png" alt="" onclick="toggleMenu2()">
+                <img class="icon-back-menu" src="./assets/img/icon-back.png" alt="" onclick="toggleMenu()">
     
                 <div class="container-menu">
-                    <a href="">
+                    <a href="index.html">
                         <div class="btn-menu" onclick="toggleMenu()">
                             <img src="./assets/img/icon-accueil.png" alt="">
                             <h1>Home</h1>
                         </div>
                     </a>
     
-                    <a href="">
+                    <a href="index-services.html">
                         <div class="btn-menu" onclick="toggleMenu()">
                             <img src="./assets/img/icon-services.png" alt="">
                             <h1>Services</h1>
@@ -117,7 +116,7 @@
                     <h1>Hi, Welcome to <span>Vxlleney</span>'s WEBSITE</h1>
                     <p>I learn Web Development, Design and Hosting<br>
                         I'm currently a web development student</p>
-                    <a href="">
+                    <a href="https://github.com/Vxlleney">
                         <span>Show my Portfolio</span>
                         <i class="uil uil-folder-open"></i>
                     </a>
@@ -152,7 +151,7 @@
                 <img class="img-sct-1" src="./assets/img/icon-sct-1.png" alt="">
 
                 <div class="content-sct-1">
-                    <h1>Mes <span>compétences</span></h1>
+                    <h1>My <span>skills</span></h1>
 
                     <div class="exp-container">
                         <div class="exp-web">
@@ -226,7 +225,7 @@
 
         <section class="bg-sct-2">
             <div class="container-sct-2">
-                <h1><span>Projets</span> réalisés</h1>
+                <h1>Finalised <span>projects</span></h1>
 
                 <div class="services-sct-2">
 
@@ -342,8 +341,8 @@
                 <div class="btn-footer">
                     <div class="nav-footer">
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Services</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index-services.html">Services</a></li>
                             <li><a href="">Portfolio</a></li>
                             <li><a href="">About Me</a></li>
                         </ul>
@@ -364,8 +363,13 @@
             </div>
 
         </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup-icon"></i>
+        </a>
+        
     </body>
 
     <script src="https://kit.fontawesome.com/685bff160c.js" crossorigin="anonymous"></script>
     <script src="./assets/js/main.js" crossorigin="anonymous"></script>
-</html> 
+</html>
