@@ -15,6 +15,10 @@
 
     <body>
 
+        <div class="wrapper">
+            <div class="loader"></div>
+        </div>
+
         <nav>
             <div class="gradient-nav"></div>
             <div class="nav">
@@ -36,7 +40,7 @@
                     </li>
 
                     <li class="item-nav">
-                        <a href="#">About me</a>
+                        <a href="index-about.html">About me</a>
                     </li>
                 </ul>
 
@@ -53,7 +57,9 @@
 
             <div class="nav-menu">
 
-                <img class="icon-back-menu" src="./assets/img/icon-back.png" alt="" onclick="toggleMenu()">
+                <div class="btn-back-menu" onclick="toggleMenu()">
+                    <i class="uil uil-angle-right-b"></i>
+                </div>
     
                 <div class="container-menu">
                     <a href="index.html">
@@ -77,7 +83,7 @@
                         </div>
                     </a>
     
-                    <a href="">
+                    <a href="index-about.html">
                         <div class="btn-menu" onclick="toggleMenu()">
                             <img src="./assets/img/icon-about.png" alt="">
                             <h1>About me</h1>
